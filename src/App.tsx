@@ -47,7 +47,7 @@ const App: React.FC = () => {
         onChange={(e) => setQuery(e.target.value)}
       />
       <div className="buttons">
-        <button onClick={handleSearch}>Pesquisa Google</button>
+        <button onClick={handleSearch}>Pesquisaa Google</button>
         <button onClick={handleLucky}>{luckyText}</button>
       </div>
     </div>
